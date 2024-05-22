@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".MainActivity2">
+    tools:context=".Activities.MainActivity3">
 
 
     <EditText
@@ -16,7 +16,7 @@
         android:ems="10"
         android:textAlignment="center"
         android:textColor="#707070"
-        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
@@ -85,4 +85,41 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:layout_width="408dp"
+        android:layout_height="238dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/blockchain"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:layout_width="364dp"
+        android:layout_height="140dp"
+        android:text="Make your finances in this P2P technology by Satoshi Nakamoto!"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="73dp"
+        android:text="Your money in a safe place protected by by a blockchain
+        with millions of participating machines with copies of the hashes of these blocks."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="185dp"
+        android:layout_height="56dp"
+        android:text="Get Started"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

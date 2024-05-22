@@ -1,0 +1,6 @@
+<style android:name="CircleImageView"
+    android:parent=""
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:name="cornerFamily">rounded</item>
+    <item android:name="cornerSize">100%</item>
+</style>

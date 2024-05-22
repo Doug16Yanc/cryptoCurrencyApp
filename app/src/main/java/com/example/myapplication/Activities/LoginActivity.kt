@@ -1,8 +1,9 @@
-package com.example.myapplication
+package com.example.myapplication.Activities
 
 import android.os.Bundle
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplication.R
 
 class LoginActivity : AppCompatActivity() {
     lateinit var userEdt : EditText
